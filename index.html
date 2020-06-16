@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tabs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<section>
+    <div class="transparent">
+    <div class="tab-title">
+    <p class="logo">Miyamoto Musashi</p>
+    <p class="title">Japanese philosopher</p>
+    </div>
+
+    <div class="container">
+        <div class="tab-image">
+            <img src="./img/image1.jpg" alt="musashi">
+        </div>
+
+        <div class="right">
+            <ul class="tabs">
+                <li id="musashi" data-tab-target="#first" class="active tab">Miyamoto Musashi</li>
+                <li id="bio" data-tab-target="#second" class="tab">Biography</li>
+                <li id="book"  data-tab-target="#third" class="tab">The Book of Five Rings</li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="first" data-tab-content class="active">
+                <p class="header">Miyamoto Musashi</p>
+                <p class="text-content">Also known as Shinmen Takezō, Miyamoto Bennosuke or, by his Buddhist name, Niten Dōraku, was a Japanese swordsman, philosopher, strategist, writer and rōnin. Musashi, as he was often simply known, became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 61 duels (next is 33 by Itō Ittōsai). He is considered a Kensei, a sword-saint of Japan.[2] He was the founder of the Niten Ichi-ryū school or Nito Ichi-ryū style of swordsmanship, and in his final years authored The Book of Five Rings (五輪の書, Go Rin No Sho), and Dokkōdō (The Path of Aloneness). Both documents were given to Terao Magonojō, the most important of Musashi's students, seven days before Musashi's death. The Book of Five Rings deals primarily with the character of his Niten Ichi-ryū school in a concrete sense e.g. his own practical martial art and its generic significance; The Path of Aloneness on the other hand, deals with the ideas that lie behind it, as well as his life's philosophy in a few short aphoristic sentences. The Musashi Budokan training center - in a remarkable architecture - located in Mimasaka, Okayama prefecture, Japan was erected to honor his name and legend.</p>
+                </div>
+
+                <div id="second" data-tab-content>
+                    <p class="header">Biography</p>
+                    <div class="grid-container">
+                        <div class="grid-item">Born</div>
+                        <div class="grid-details">
+                            <p>Miyamoto Bennosuke</p>
+                            <p>c. 1584</p>
+                            <p>Harima Province or Mimasaka Province, Japan</p>
+                        </div>
+                    </div>    
+                        
+                    <div class="grid-container">
+                        <div class="grid-item">Died</div>
+                        <div class="grid-details">
+                            <p>13 June 1645 (aged 60–61)</p>
+                            <p>Higo Province, Japan</p>
+                        </div>
+                    </div>    
+                    <div class="grid-container">
+                        <div class="grid-item">Native name</div>
+                        <div class="grid-details">
+                            <p>宮本武蔵</p>
+                        </div>
+                    </div>    
+                    <div class="grid-container">
+                        <div class="grid-item">Other names</div>
+                        <div class="grid-details">
+                            <p>Niten Dōraku; Shinmen Musashi no Kami Fujiwara no Harunobu</p>
+                        </div>
+                    </div>    
+                    <div class="grid-container">
+                        <div class="grid-item">Residence</div>
+                        <div class="grid-details">
+                            <p>Japan</p>
+                        </div>
+                    </div>    
+                    <div class="grid-container">
+                        <div class="grid-item">Style</div>
+                        <div class="grid-details">
+                            <p>Hyōhō Niten Ichi-ryū Kenjutsu (二天一流) </p>
+                            <p>Enmei-ryu (圓明流), (二天流)</p>
+                            <p>(二天流)</p>
+                        </div>
+                    </div>    
+                    <div class="grid-container">
+                        <div class="grid-item">Notable students</div>
+                        <div class="grid-details">
+                            <p>Takemura Yoemon</p>
+                            <p>Terao Magonojō</p>
+                            <p>Terao Motomenosuke</p>
+                            <p>Furuhashi Sōzaemon</p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div id="third" data-tab-content>
+                    <p class="header">The Book of Five Rings</p>
+                    <p class="text-content">(五輪書, Go Rin no Sho) is a text on kenjutsu and the martial arts in general, written by the Japanese swordsman Miyamoto Musashi around 1645. There have been various translations made over the years, and it enjoys an audience considerably broader than only that of martial artists and people across East Asia: for instance, some foreign business leaders find its discussion of conflict and taking the advantage to be relevant to their work in a business context. The modern-day Hyōhō Niten Ichi-ryū employs it as a manual of technique and philosophy.<br><br>
+                    Musashi establishes a "no-nonsense" theme throughout the text. For instance, he repeatedly remarks that technical flourishes are excessive, and contrasts worrying about such things with the principle that all technique is simply a method of cutting down one's opponent. He also continually makes the point that the understandings expressed in the book are important for combat on any scale, whether a one-on-one duel or a massive battle. Descriptions of principles are often followed by admonitions to "investigate this thoroughly" through practice rather than trying to learn them by merely reading.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>    
+</body>
+</html>
